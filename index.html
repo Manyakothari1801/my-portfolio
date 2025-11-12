@@ -1,71 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Manya Kothari</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- HEADER -->
     <header>
         <h1>My Portfolio</h1>
-        <hr>
+        <p>Welcome to my world of learning, innovation, and creativity.</p>
     </header>
 
     <!-- ABOUT SECTION -->
-    <section>
+    <section class="about">
         <h2>About Me</h2>
-        <img src="myphoto.jpg" width="200" alt="My Photo">
-        <p>Hello! My name is Manya kothari. I am learning Web Development and this is my Week 1 HTML Project.</p>
+        <img src="myphoto.jpg" alt="My Photo">
+        <p>
+            Hello! I'm <strong>Manya Kothari</strong>, a <b>Computer Science and Engineering student</b> at 
+            <b>Vellore Institute of Technology (VIT), Vellore</b>.  
+            As a passionate learner, I love exploring the intersection of software engineering, data analysis, and design.  
+            My academic journey includes diverse experiences — from <b>building applications in Flutter and React</b> to 
+            <b>publishing research papers</b> in reputed journals.  
+            I thrive on challenges that push me to learn, create, and lead.  
+            Currently, I’m focusing on expanding my skills in <b>web development, AI, and problem-solving</b> through real-world projects and internships.
+        </p>
+
+        <div class="social-links">
+            <a href="mailto:kotharimanya09@gmail.com" target="_blank" title="Email">
+                📧 Gmail
+            </a>
+            <a href="https://www.linkedin.com/in/manyakothari" target="_blank" title="LinkedIn">
+                🔗 LinkedIn
+            </a>
+            <a href="https://github.com/manyakothari" target="_blank" title="GitHub">
+                💻 GitHub
+            </a>
+        </div>
     </section>
 
-    <hr>
-
     <!-- SKILLS SECTION -->
-    <section>
+    <section class="skills">
         <h2>My Skills</h2>
         <ul>
-            <li>HTML Basics</li>
-            <li>Communication</li>
-            <li>Team Work</li>
-            
+            <li>Python, C, C++, Java</li>
+            <li>SQL & Data Handling</li>
+            <li>HTML, CSS, React, Flutter</li>
+            <li>Leadership & Management</li>
+            <li>Communication & Teamwork</li>
         </ul>
     </section>
 
-    <hr>
-
     <!-- PROJECTS SECTION -->
-    <section>
+    <section class="projects">
         <h2>My Projects</h2>
         <ol>
-            <li>Project 1 - Personal Portfolio</li>
-            
+            <li>Personal Portfolio Website</li>
+            <li>Hospital Management System (Matplotlib-based)</li>
+            <li>Infant Vital Monitoring (IoT Project)</li>
         </ol>
     </section>
 
-    <hr>
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="certifications">
+        <h2>My Certifications</h2>
+        <ul>
+            <li>📜 Certificate of Participation – NIT Nagaland ICOAISC-2024 Conference</li>
+            <li>📜 Paper Publication – IOSR Journal of Computer Engineering</li>
+            <li>📜 NPTEL Certification – Wildlife Ecology, IIT Kanpur (Top 1%)</li>
+            <li>📜 Certificate of Completion – Data Science Projects</li>
+            <li>📜 Certificate in Artificial Intelligence & Machine Learning</li>
+            <li>📜 Certificate in Project Management Foundation: Integration</li>
+            <li>📜 Certificate in Python Programming Basics</li>
+            <li>📜 Certificate of Appreciation – VIT Quality Week 2025</li>
+            <li>📜 Internship Certificate – Software Development Engineer, BlueStock Fintech</li>
+            <li>📜 Internship Certificates – Full Stack, AI & Web Development Training (5 total)</li>
+        </ul>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section class="resume">
+        <h2>My Resume</h2>
+        <p>You can view or download my complete resume below:</p>
+        <a href="manya_kothari_resume_final(without CG).pdf" target="_blank" class="resume-btn">📄 View My Resume</a>
+    </section>
 
     <!-- CONTACT FORM -->
-    <section>
+    <section class="contact">
         <h2>Contact Me</h2>
         <form>
-            <label>Name:</label><br>
-            <input type="text" placeholder="Enter your name"><br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
 
-            <label>Email:</label><br>
-            <input type="email" placeholder="Enter your email"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
 
-            <label>Message:</label><br>
-            <textarea placeholder="Write your message"></textarea><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Write your message"></textarea>
 
             <button type="submit">Send Message</button>
         </form>
     </section>
 
-    <hr>
-
     <!-- FOOTER -->
     <footer>
-        <p>© 2025 My Portfolio | All Rights Reserved</p>
+        <p>© 2025 My Portfolio | Designed by Manya Kothari</p>
     </footer>
 
 </body>
